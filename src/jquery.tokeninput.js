@@ -1042,7 +1042,7 @@ $.TokenList = function (input, url_or_data_or_function, settings) {
                 dropdown_ul.show();
             }
         } else {
-            if(settings.noResultsText && !settings.allowCustomEntry) {
+            if(settings.noResultsText) {
                 dropdown.html("<p>"+settings.noResultsText+"</p>");
                 show_dropdown();
             } else {
